@@ -1,5 +1,13 @@
 function App() {
-  return <h1>Welcome To Jetino React Course</h1>;
+  const names = ["Amir", "Ali", "Sara", "Mina"];
+
+  return (
+    <ul>
+      {names.map((item, index) => {
+        return <li key={index}>{item}</li>;
+      })}
+    </ul>
+  );
 }
 
 export default App;
