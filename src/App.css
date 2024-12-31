@@ -84,9 +84,9 @@ button:active {
 }
 
 button.operator.equal {
-  background-color: #4caf50; /* سبز */
+  background-color: #4caf50;
   color: white;
 }
 button.operator.equal:hover {
-  background-color: #388e3c; /* سبز تیره‌تر */
+  background-color: #388e3c;
 }
