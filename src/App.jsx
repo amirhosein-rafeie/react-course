@@ -26,10 +26,9 @@ function App() {
         <button className="number">3</button>
         <button className="operator">+</button>
         {/* Row 5  */}
-        <button className="number" style={{ gridColumn: "span 2" }}>
+        <button className="number" style={{ gridColumn: "span 3" }}>
           0
         </button>
-        <button className="number">.</button>
         <button className="operator equal">=</button>
       </div>
     </div>
